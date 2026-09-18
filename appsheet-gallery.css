@@ -1,0 +1,15 @@
+
+.appsheet-card{display:flex;flex-direction:column;min-width:0}
+.appsheet-card>svg{flex-shrink:0}
+.appsheet-gallery{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,.34fr);align-items:end;gap:14px;margin-top:0;padding-top:20px;background:#fff}
+.appsheet-gallery figure{margin:0;min-width:0}
+.appsheet-gallery button{position:relative;display:block;width:100%;background:transparent;border:0;padding:0;border-radius:10px;cursor:zoom-in;transition:transform .2s ease}
+.appsheet-gallery button:hover{transform:translateY(-3px)}
+.appsheet-gallery button:focus-visible{outline:3px solid #0071e3;outline-offset:5px}
+.appsheet-gallery img{display:block;width:100%;height:auto;object-fit:contain}
+.appsheet-phone img{filter:drop-shadow(0 8px 9px #00000014)}
+.appsheet-gallery button>span{position:absolute;right:2px;bottom:6px;width:30px;height:30px;display:grid;place-items:center;background:#fff;color:#1d1d1f;border-radius:50%;font-size:18px;box-shadow:0 2px 10px #0002}
+.appsheet-gallery figcaption{font-size:12px;line-height:1.5;text-align:center;color:#53535b;margin-top:16px;word-break:keep-all}
+.appsheet-card .appsheet-caption{font-size:12px;line-height:1.7;color:#6e6e73;margin:22px 0 0;padding-top:16px;border-top:1px solid #e8e8ed}
+@media(max-width:550px){.appsheet-gallery{gap:12px;padding-top:22px;grid-template-columns:minmax(0,1fr) minmax(0,.36fr)}.appsheet-gallery figcaption{font-size:12px;margin-top:12px}.appsheet-gallery button>span{width:28px;height:28px}.appsheet-card .appsheet-caption{margin-top:18px}}
+@media(prefers-reduced-motion:reduce){.appsheet-gallery button{transition:none}.appsheet-gallery button:hover{transform:none}}

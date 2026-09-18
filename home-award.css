@@ -1,0 +1,9 @@
+.hero .home-award{margin:20px 0 4px;text-decoration:none;min-height:0;padding:28px 110px;transition:border-color .2s ease,box-shadow .2s ease}
+.home-award:hover{border-color:#d4b778;box-shadow:0 16px 40px #15130b20}.home-award:focus-visible{outline:3px solid #0071e3;outline-offset:5px}
+.home-project-award{background:linear-gradient(120deg,#26231c,#121311);color:#ead29b;padding:20px 22px;border-radius:16px;border:1px solid #594a30;margin:0 0 24px;display:flex;flex-direction:column;gap:8px}
+.home-project-award small{font-size:12px;color:#dfcfac;line-height:1.6}.home-project-award strong{font-size:clamp(23px,2.4vw,30px);line-height:1.4;letter-spacing:-.04em;word-break:keep-all}
+@media(max-width:600px){.hero .home-award{min-height:0;margin-top:16px;padding:24px 20px}.home-project-award{padding:18px;margin-bottom:20px}}
+@media(prefers-reduced-motion:reduce){.hero .home-award{transition:none}}
+.home-project-award{text-align:center}.home-project-award time{font-size:12px;letter-spacing:.12em;color:#dfcfac}
+
+.hero .home-award .award-laurel{height:155px}.hero .home-award .award-contest{margin-top:12px}.hero .home-award .award-copy time{margin-top:16px;padding-top:12px}
